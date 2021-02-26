@@ -5,11 +5,7 @@
     <link>https://devdocs.prestashop.com/1.7/scale/benchmark/</link>
     <description>Recent content in How to benchmark your PrestaShop on PrestaShop Developer Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://devdocs.prestashop.com/1.7/scale/benchmark/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://devdocs.prestashop.com/1.7/scale/benchmark/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Front-Office Benchmark</title>
       <link>https://devdocs.prestashop.com/1.7/scale/benchmark/front-office/</link>
@@ -29,7 +25,7 @@ Benchmark with Siege tool Benchmark methodology In order to benchmark the perfor
       <guid>https://devdocs.prestashop.com/1.7/scale/benchmark/back-office/</guid>
       <description>How to benchmark your PrestaShop Shop (Back-office) Benchmark methodology In order to benchmark the performances of the backoffice of your shop, you will use the Gatling testing tool.
  Note: Backoffice benchmark is only possible starting with prestashop 1.7.4.0!
-If you want still want to run the test for version &amp;lt; 1.7.4.0, take a look at this PR: https://github.com/PrestaShop/PrestaShop/pull/8876
+  If you want still want to run the test for version &amp;lt; 1.7.4.0, take a look at this PR: https://github.com/PrestaShop/PrestaShop/pull/8876
  What is Gatling? Gatling is a stress tool. Development is currently focusing on HTTP support.</description>
     </item>
     

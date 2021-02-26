@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>How to contribute to the Core by submitting a Pull Request on PrestaShop Developer Documentation</title>
+    <title>How to contribute code changes on PrestaShop Developer Documentation</title>
     <link>https://devdocs.prestashop.com/1.7/contribute/contribute-pull-requests/</link>
-    <description>Recent content in How to contribute to the Core by submitting a Pull Request on PrestaShop Developer Documentation</description>
+    <description>Recent content in How to contribute code changes on PrestaShop Developer Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://devdocs.prestashop.com/1.7/contribute/contribute-pull-requests/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://devdocs.prestashop.com/1.7/contribute/contribute-pull-requests/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contribute using localhost</title>
       <link>https://devdocs.prestashop.com/1.7/contribute/contribute-pull-requests/contribute_using_localhost/</link>
@@ -29,14 +25,14 @@
     </item>
     
     <item>
-      <title>Submit a Pull Request</title>
+      <title>How to push your changes to GitHub</title>
       <link>https://devdocs.prestashop.com/1.7/contribute/contribute-pull-requests/create-pull-request/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://devdocs.prestashop.com/1.7/contribute/contribute-pull-requests/create-pull-request/</guid>
-      <description>Publish your contribution on GitHub Once your changes sound good and tests pass on your local computer, you can contribute to the open source project by submitting these changes as a Pull Request on GitHub.
+      <description>Hot to publish your contribution to GitHub Once your changes sound good and tests pass on your local computer, you can contribute to the open source project by submitting these changes as a Pull Request on GitHub.
 First you need to push your branch on GitHub:
-git push origin add-emoticons-support  You will need to use your GitHub credentials. Now you can create your Pull Request on GitHub. Now you can create your Pull Request on GitHub.</description>
+git push origin add-emoticons-support  You will need to use your GitHub credentials. Now you can create your Pull Request on GitHub. If you don&amp;rsquo;t know how to do it, you can read GitHub documentation.</description>
     </item>
     
   </channel>

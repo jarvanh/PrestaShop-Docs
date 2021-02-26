@@ -5,11 +5,7 @@
     <link>https://devdocs.prestashop.com/1.7/modules/core-updates/</link>
     <description>Recent content in Core changes on PrestaShop Developer Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://devdocs.prestashop.com/1.7/modules/core-updates/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://devdocs.prestashop.com/1.7/modules/core-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backward compatibility with PrestaShop 1.6</title>
       <link>https://devdocs.prestashop.com/1.7/modules/core-updates/1.6/</link>
@@ -19,6 +15,17 @@
       <description>Backward compatibility with PrestaShop 1.6 If you plan to develop a module for PrestaShop 1.7 then extending the compatibility with previous major versions of PrestaShop, it may require some changes before being ready for production.
 Namespaces PrestaShop 1.6 does not fully support namespaces. They throw some issues when used in specific places.
  In the main class of your module, the keyword use [...]; will trigger syntax errors when PrestaShop will try to parse the file.</description>
+    </item>
+    
+    <item>
+      <title>Make PrestaShop 1.6 modules compatible with 1.7</title>
+      <link>https://devdocs.prestashop.com/1.7/modules/core-updates/1.6-1.7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devdocs.prestashop.com/1.7/modules/core-updates/1.6-1.7/</guid>
+      <description>Make PrestaShop 1.6 modules compatible with 1.7 Module front controllers There are several changes to templating in your module front controllers.
+Getting a proper template for a page In order to display content properly in your ModuleFrontController files, you need to change the way you link to your template file in your initContent method:
+- $this-&amp;gt;setTemplate(&amp;#39;views/templates/front/template.tpl&amp;#39;); + $this-&amp;gt;setTemplate(&amp;#39;module:yourmodule/views/templates/front/template.tpl&amp;#39;); Basic structure of a module front page template If you want your module to display an entire page with your own content, the basic structure of your .</description>
     </item>
     
     <item>
@@ -47,8 +54,9 @@ A new variable is now available in the Context when going through a controller:<
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://devdocs.prestashop.com/1.7/modules/core-updates/1.7.7/</guid>
-      <description>Notable changes in PrestaShop 1.7.7 Order view page layout modifications In this version the order page has been migrated with Symfony. We used this migration as an opportunity to improve the page layout to meet the merchants&amp;rsquo; needs. You can see a representation of these new hooks in the page here:
-  Order view page hooks layout   Modified hooks The following hooks have been moved and have new names.</description>
+      <description>Notable changes in PrestaShop 1.7.7 PHP support PrestaShop 1.7.7 adds supports for PHP 7.3 and requires at least PHP 7.1.3. Older PHP versions are no longer supported.
+Updated dependencies The following dependencies have been updated in order to provide support for PHP 7.3:
+   Extension Old version New version     beberlei/doctrineextensions v1.1.9 v1.2.6   behat/transliterator v1.2.0 v1.3.0   composer/ca-bundle 1.1.4 1.2.6   composer/installers v1.</description>
     </item>
     
   </channel>

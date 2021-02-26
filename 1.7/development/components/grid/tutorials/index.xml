@@ -5,11 +5,7 @@
     <link>https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/</link>
     <description>Recent content in Tutorials on PrestaShop Developer Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use Bulk actions in Grid</title>
       <link>https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/work-with-bulk-actions/</link>
@@ -17,7 +13,8 @@
       
       <guid>https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/work-with-bulk-actions/</guid>
       <description>How to use Bulk actions in Grid? In addition to displaying data tables, Grid component also comes with a lot of additional functionality. One of it is Bulk actions.
-What is Bulk action? Bulk action is action (e.g. Delete, Change status &amp;amp; etc) that can be performed on multiple entries in table. This is a common task when using Grid (e.g. Delete multiple selected Suppliers with a single click).</description>
+What is Bulk action? Bulk action is action (e.g. Delete, Change status &amp;amp; etc) that can be performed on multiple entries in table. This is a common task when using Grid (e.g. Delete multiple selected Suppliers with a single click).
+How to add Bulk actions to Grid?</description>
     </item>
     
     <item>
@@ -40,16 +37,6 @@ How to add actions to Grid? Let&amp;rsquo;s take an example from Customers grid 
       <description>How to use Row actions In addition to displaying data tables, Grid component also comes with a lot of additional features. One is Row actions.
 What is a Row action? A Row action is an action (e.g. Edit, View &amp;amp; Delete) that is applicable to a specific row in the Grid.
 How to add row actions to Grid? Let&amp;rsquo;s take an example from Category grid definition. It has 3 (row) actions already:</description>
-    </item>
-    
-    <item>
-      <title>How to work with the Search Form</title>
-      <link>https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/work-with-search-form/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/work-with-search-form/</guid>
-      <description> How to work with the Search Form  Do you know how to do it? Please feel free to contribute to the docs!
- </description>
     </item>
     
     <item>
@@ -89,8 +76,7 @@ For instance, let&amp;rsquo;s take a look at the Logs page of the PrestaShop Bac
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/create-custom-grid-action/</guid>
-      <description> How to create a custom Grid Action  Do you know how to do it? Please feel free to contribute to the docs!
- </description>
+      <description>How to create a custom Grid Action Do you know how to do it? Please feel free to contribute to the docs! </description>
     </item>
     
     <item>
@@ -99,8 +85,7 @@ For instance, let&amp;rsquo;s take a look at the Logs page of the PrestaShop Bac
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://devdocs.prestashop.com/1.7/development/components/grid/tutorials/create-custom-column-type/</guid>
-      <description> How to create a custom Column Type  Do you know how to do it? Please feel free to contribute to the docs!
- </description>
+      <description>How to create a custom Column Type Do you know how to do it? Please feel free to contribute to the docs! </description>
     </item>
     
     <item>

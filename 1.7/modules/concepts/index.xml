@@ -5,11 +5,7 @@
     <link>https://devdocs.prestashop.com/1.7/modules/concepts/</link>
     <description>Recent content in Extension concepts on PrestaShop Developer Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://devdocs.prestashop.com/1.7/modules/concepts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://devdocs.prestashop.com/1.7/modules/concepts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuration</title>
       <link>https://devdocs.prestashop.com/1.7/modules/concepts/configuration/</link>
@@ -18,7 +14,7 @@
       <guid>https://devdocs.prestashop.com/1.7/modules/concepts/configuration/</guid>
       <description>Configuration Data can be saved in the shop database without requiring a module specific table to be created.
 The table configuration contains a list of key =&amp;gt; value(s) properties which can be accessed from anywhere, including in a module. The Configuration class is the interface allowing each module developer to get or store data in this table.
-Store configuration data Configuration::updateValue(string $key, mixed $value);  $key will be the reference to your data to reuse later.</description>
+Store configuration data &amp;lt;?php Configuration::updateValue(string $key, mixed $value); $key will be the reference to your data to reuse later.</description>
     </item>
     
     <item>
@@ -30,16 +26,6 @@ Store configuration data Configuration::updateValue(string $key, mixed $value); 
       <description>Widgets Widget is an advanced concept introduced on PrestaShop 1.7, extending hooks feature.
 Limitation of hooks In their basic use, a display hook will be shown at a specific place in the template. If a module wants to display the same additional content on several places, whatever the merchant chose, it still has to register and implement all the possible hooks.
 With widgets, module developers can display content everywhere the module is asked to do so.</description>
-    </item>
-    
-    <item>
-      <title>Doctrine</title>
-      <link>https://devdocs.prestashop.com/1.7/modules/concepts/doctrine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devdocs.prestashop.com/1.7/modules/concepts/doctrine/</guid>
-      <description>Doctrine  From the 1.7.6 version of PrestaShop we integrate support of Doctrine services and entities for modules. Doctrine is a powerful ORM allowing you to manage your database data via objects. It offers an abstract layer allowing you to perform insert/update actions via a simple $entity-&amp;gt;setData(&#39;update&#39;) call. But you can also create your own repositories to fetch specific data via left join, add conditions and so on&amp;hellip;
-Doctrine is the default ORM integrated with Symfony which is why we added it for modules in legacy context.</description>
     </item>
     
     <item>
@@ -68,8 +54,8 @@ From a single configuration file, a module will benefit of these features:</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://devdocs.prestashop.com/1.7/modules/concepts/symfony/</guid>
-      <description> Symfony extension concepts PrestaShop modules acts as Symfony bundles, extension points are added continuously in each minor version:
-   Version Symfony features     1.7.3 Twig templates and Services   1.7.4 Configuration Forms and Console commands   1.7.5 Modern controllers and Security   1.7.6 Doctrine ORM and Entity forms    </description>
+      <description>Symfony extension concepts PrestaShop modules acts as Symfony bundles, extension points are added continuously in each minor version:
+   Version Symfony features     1.7.3 Twig templates and Services   1.7.4 Configuration Forms and Console commands   1.7.5 Modern controllers and Security   1.7.6 Doctrine ORM and Entity forms   1.7.7 Controllers as services    </description>
     </item>
     
     <item>
@@ -79,9 +65,21 @@ From a single configuration file, a module will benefit of these features:</desc
       
       <guid>https://devdocs.prestashop.com/1.7/modules/concepts/commands/</guid>
       <description>Commands  Since version 1.7 of PrestaShop, everyone have access to the PrestaShop console using the following instruction in a terminal:
- ./bin/console # or ./app/console for PrestaShop &amp;lt; 1.7.3 
+./bin/console
 Since v1.7.5, you can add and provide your own commands into the PrestaShop console using modules.
-Let&amp;rsquo;s see an example of a really common task when we usually use CRON scripts: you want to export your products into an XML file in order to import them into an another platform (a PIM or an ERP).</description>
+If you load and use PrestaShop Core legacy classes such as an ObjectModel within a Command context, you might run into issues. This is a known limitation of the Commands. Removing this limitation is being explored for future PS versions.</description>
+    </item>
+    
+    <item>
+      <title>Pdf Files</title>
+      <link>https://devdocs.prestashop.com/1.7/modules/concepts/pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://devdocs.prestashop.com/1.7/modules/concepts/pdf/</guid>
+      <description>Pdf Files One of the interaction with the Customers involve sending mails, including pdf files.
+For example, for every order you do on a Shop as a Customer we expect to receive an Invoice.
+Working on what make a shop an unique experience, as a Developer you will be asked to customize every PDF files that PrestaShop can produce.
+You can alter the rendering using the provided data or push the PDF Rendering to its best, introducing your very own information that will made your PDF files amazing.</description>
     </item>
     
   </channel>

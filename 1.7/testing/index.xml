@@ -5,11 +5,7 @@
     <link>https://devdocs.prestashop.com/1.7/testing/</link>
     <description>Recent content in Testing on PrestaShop Developer Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://devdocs.prestashop.com/1.7/testing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://devdocs.prestashop.com/1.7/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
       <link>https://devdocs.prestashop.com/1.7/testing/introduction/</link>
@@ -51,18 +47,8 @@ For unit tests, we strongly encourage you to base your test on the PHPUnit&amp;r
       <guid>https://devdocs.prestashop.com/1.7/testing/how-to-create-your-own-symfony-controller-tests/</guid>
       <description>How to create your own symfony controller tests or add tests to PrestaShop If you create your own Modern (symfony) controllers or if you plan on migrating a legacy controller, you can create tests to cover parts of HTTP layer aka symfony functional tests.
 Creating a functional test To create a functional test, we encourage you to base your test class on our own implementation of WebTestCase.
-For instance:</description>
-    </item>
-    
-    <item>
-      <title>How to create your own web acceptance tests</title>
-      <link>https://devdocs.prestashop.com/1.7/testing/how-to-create-your-own-web-acceptance-tests/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://devdocs.prestashop.com/1.7/testing/how-to-create-your-own-web-acceptance-tests/</guid>
-      <description>How to create your own web acceptance tests or add tests to PrestaShop Web Acceptance tests work by controlling a browser and using the web interface as a real user.
-We use:
- Puppeteer as automation tool Mocha as test framework Chai as assertion library Faker as fake data generator  How does it work We use Page Object Pattern to distinguish the test logic from the web page logic.</description>
+For instance:
+&amp;lt;?php namespace Tests\Functional\Foo; use Tests\Integration\PrestaShopBundle\Test\WebTestCase; class BarTest extends WebTestCase { public function testSomeAction() { $url = this-&amp;gt;router-&amp;gt;generate(&amp;#39;route_name&amp;#39;); $this-&amp;gt;client-&amp;gt;request(&amp;#39;GET&amp;#39;, $url); $response = $this-&amp;gt;client-&amp;gt;getResponse(); self::assertTrue($response-&amp;gt;isSuccessful()); } } Find out more in Symfony&amp;rsquo;s documentation on functional testing.</description>
     </item>
     
     <item>
